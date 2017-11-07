@@ -1,8 +1,1 @@
-.nav {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-.nav > li {
-  padding: 1em; }
+.nav{list-style:none;display:-webkit-box;display:-ms-flexbox;display:flex}.nav>li{padding:1em}
