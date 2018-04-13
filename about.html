@@ -6,9 +6,6 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- CDNs -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
     <!-- Stylesheets -->
     <link rel="stylesheet" href="stylesheets/vendor/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="./stylesheets/site.css" rel="stylesheet" />
@@ -16,9 +13,6 @@
     <link href="./stylesheets/home.css" rel="stylesheet" />
     <link href="./stylesheets/about.css" rel="stylesheet" />
     <link href="./stylesheets/project.css" rel="stylesheet" />
-
-    <!-- JavaScript -->
-    <script src="./javascripts/site.js"></script>
 
     <!-- Stylesheets - Vendor -->
 
@@ -32,9 +26,11 @@
   <body>
     <div class="center-wrapper">
   <div class='about center-container'>
-    <ul class='vertical-nav'>
+    <img id='nav-mobile' src="images/menu.png" onclick="mobileNavToggle();" />
+    <ul id='vertical-nav'>
       <li><a href="./">Home</a></li>
       <li><a href="./projects.html">Projects</a></li>
+      <li><a href="https://medium.com/@mchisti" target="_blank">Blog</a></li>
       <li><a href="./about.html">About</a></li>
       <li><a href="mailto:93mchisti@gmail.com?Subject=Hello">Contact</a></li>
       <li><a href="./assets/resume-mohammed-chisti.pdf" target="_blank">Resume</a></li>
@@ -57,28 +53,33 @@
 
     <h3>Skills</h3>
     <ul class='skills buffer-small'>
-      <li><img src="./images/skills/react.svg" class="icon" alt="React" /></li>
-      <li><img src="./images/skills/redux.svg" class="icon" alt="Redux" /></li>
-      <li><img src="./images/skills/javascript.svg" class="icon" alt="Javascript" /></li>
-      <li><img src="./images/skills/rails.svg" class="icon" alt="Rails" /></li>
-      <li><img src="./images/skills/ruby.svg" class="icon" alt="Ruby" /></li>
-      <li><img src="./images/skills/pg.svg" class="icon" alt="Pg" /></li>
-      <li><img src="./images/skills/html5.svg" class="icon" alt="Html5" /></li>
-      <li><img src="./images/skills/css3.svg" class="icon" alt="Css3" /></li>
-      <li><img src="./images/skills/git.svg" class="icon" alt="Git" /></li>
-      <li><img src="./images/skills/heroku.png" class="icon" alt="Heroku" /></li>
+      <li><img src="./images/skills/react.svg" class="icon" alt="React.JS" title="React.JS" /></li>
+      <li><img src="./images/skills/redux.svg" class="icon" alt="Redux.JS" title="Redux.JS" /></li>
+      <li><img src="./images/skills/javascript.svg" class="icon" alt="JavaScript" title="JavaScript" /></li>
+      <li><img src="./images/skills/rails.svg" class="icon" alt="Rails" title="Rails" /></li>
+      <li><img src="./images/skills/ruby.svg" class="icon" alt="Ruby" title="Ruby" /></li>
+      <li><img src="./images/skills/pg.svg" class="icon" alt="Postgresql" title="Postgresql" /></li>
+      <li><img src="./images/skills/html5.svg" class="icon" alt="HTML5" title="HTML5" /></li>
+      <li><img src="./images/skills/css3.svg" class="icon" alt="CSS3" title="CSS3" /></li>
+      <li><img src="./images/skills/git.svg" class="icon" alt="Git" title="Git" /></li>
+      <li><img src="./images/skills/heroku.png" class="icon" alt="Heroku" title="Heroku" /></li>
     </ul>
 
     <h3>Experience</h3>
     <ul class='buffer-small'>
-      <li><strong>WeWork</strong> / Technical Coach</li>
-      <li><strong>Fiduty</strong> / Front-end Developer</li>
-      <li><strong>Microsoft</strong> / Service Advisor</li>
-      <li><strong>Civic Leadership Academy</strong> / After School Robotics Instructor</li>
-      <li><strong>Research Foundation of CUNY</strong> / Information Technology</li>
+      <li><strong>WeWork</strong> — NOV 2017 - Present<br/>Technical Coach</li>
+      <li><strong>Fiduty</strong> — MAR 2017 - AUG 2017<br/>Front-end Developer</li>
+      <li><strong>Microsoft</strong> — AUG 2015 - FEB 2016<br/>Service Advisor</li>
+      <li><strong>Civic Leadership Academy</strong> — SEP 2013 - JAN 2015<br/>Robotics Instructor</li>
+      <li><strong>Research Foundation of CUNY</strong> — DEC 2011 - JAN 2015<br/>Information Tech.</li>
     </ul>
   </div>
 </div>
 
+    <!-- CDNs -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+    <!-- JavaScript -->
+    <script src="./javascripts/site.js"></script>
   </body>
 </html>
